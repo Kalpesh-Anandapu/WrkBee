@@ -1,0 +1,52 @@
+.navbar-container {
+  margin-right: 15px;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #add8e6,
+    #8be1e7,
+    #71e8d8,
+    #72edba,
+    #90ee90
+  );
+}
+
+.container {
+  background: aliceblue;
+}
+
+.register-container {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.form-container {
+  margin-left: 36px;
+}
+
+.container-form {
+  margin-left: 36px;
+}
+
+.nav-container {
+  margin-right: 20px;
+}
+
+.badge-container {
+  margin-left: -15px;
+  margin-top: 2px;
+}
+
+.logo {
+  margin-left: 5px;
+}
+
+.logo-home {
+  margin-left: 45px;
+}
+
+.comments {
+  background-image: url(/public/chat.png);
+}
