@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Logo from "./Images/Logo.png";
+import Logo from "./Images/wrkbee-logo(1).png";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";

@@ -11,7 +11,7 @@ import { toast } from "react-toastify";
 
 const Register = () => {
   const id = uuidv4();
-  const [role, setRole] = useState("");
+  const [role, setRole] = useState("user");
   const navigate = useNavigate();
   const [username, setUsername] = useState("");
   const [name, setName] = useState("");
@@ -170,7 +170,7 @@ const Register = () => {
                   />
                   <label htmlFor="floatingInput">Confirm Password</label>
                 </div>
-                <div>
+                {/* <div>
                   <select
                     onChange={(e) => setRole(e.target.value)}
                     className="mb-2 form-select py-2"
@@ -182,7 +182,7 @@ const Register = () => {
                     <option value="user">User</option>
                     <option value="admin">Admin</option>
                   </select>
-                </div>
+                </div> */}
                 <div className="text-center mb-2">
                   <button
                     type="submit"
