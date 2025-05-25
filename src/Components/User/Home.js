@@ -18,10 +18,10 @@ const Home = () => {
               />
             </div>
             <div className="col-md-6">
-              <h1 className="mt-5 mb-3 mx-4">Project Management</h1>
+              <h1 className="mt-5 mb-3 mx-4">WrkBee</h1>
               <div className="mx-4">
                 <p className="fs-5">
-                  Welcome to our Project Management Website, where efficiency
+                  Welcome to our WrkBee Website, where efficiency
                   meets simplicity. Streamline your projects with intuitive
                   tools designed to enhance collaboration and productivity. From
                   task allocation to progress tracking, empower your team to

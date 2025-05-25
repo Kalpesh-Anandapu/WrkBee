@@ -39,7 +39,7 @@ const Navbar = () => {
                           src={Logo}
                           alt="Logo"
                           className="mx-4"
-                          style={{ height: "50px", width: "50px" }}
+                          style={{ height: "25px", width: "65px" }}
                         />
                       </Link>
                     </>
@@ -156,7 +156,7 @@ const Navbar = () => {
                           src={Logo}
                           alt="Logo"
                           className="mx-4"
-                          style={{ height: "50px", width: "50px" }}
+                          style={{ height: "25px", width: "65px" }}
                         />
                       </Link>
                     </>
@@ -269,7 +269,7 @@ const Navbar = () => {
                   src={Logo}
                   alt="Logo"
                   className="mx-4"
-                  style={{ height: "50px", width: "50px" }}
+                  style={{ height: "25px", width: "65px" }}
                 />
               </Link>
               <button

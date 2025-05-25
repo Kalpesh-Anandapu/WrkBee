@@ -16,6 +16,7 @@ import Users from "../Components/Admin/Users";
 import ProjectStatus from "../Components/Admin/ProjectStatus";
 import Review from "../Components/User/Review";
 import AdminReview from "../Components/Admin/AdminReview";
+import AdminRegister from "../Components/Admin/AdminRegister";
 
 const Routers = () => {
   return (
@@ -24,6 +25,7 @@ const Routers = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/admin/register" element={<AdminRegister />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/myprojects" element={<MyProject />} />
         <Route

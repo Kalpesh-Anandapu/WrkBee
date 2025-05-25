@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEyeSlash, faEye } from "@fortawesome/free-solid-svg-icons";
 import { Link, useNavigate } from "react-router-dom";
-import "../App.css";
+import "../../App.css";
 import { v4 as uuidv4 } from "uuid";
-import Gif from "./Images/Gif Animation.gif";
-import auth, { db } from "../Firebase";
+import Gif from "../Images/Gif Animation.gif";
+import auth, { db } from "../../Firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { toast } from "react-toastify";
 
-const Register = () => {
+const AdminRegister = () => {
   const id = uuidv4();
   const [role, setRole] = useState("admin");
   const navigate = useNavigate();
@@ -203,4 +203,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default AdminRegister;
